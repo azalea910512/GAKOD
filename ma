@@ -438,7 +438,7 @@ VO8OWkpf8uS56zFmpN1Db19+5xFJLmPMcJQISrgT4WdUmsDE9mOoSklFazxLjg5J
 dr3Szfw/1BrXI2OgvFxke2i6hA==
 -----END PRIVATE KEY-----
 EOF10
- cat <<'EOF18'> /etc/openvpn/tls-auth.key
+ cat <<'EOF204'> /etc/openvpn/tls-auth.key
 #
 # 2048 bit OpenVPN static key
 #
@@ -460,7 +460,7 @@ e6d7b99a22b84f1620d7c94af927c8bb
 0ed52d61c9ca821be4e9deb94bc00cb8
 29b8d1b0a13e173b68e3b835c46a4a38
 -----END OpenVPN Static key V1-----
-EOF18 
+EOF204 
  cat <<'EOF13'> /etc/openvpn/dh.pem
 -----BEGIN DH PARAMETERS-----
 MIIBiAKCAYEAwnm17lIOZot3TN0jJ56XFidX6d3EWkdHf45MJlYQIGb02h5Z79TG
