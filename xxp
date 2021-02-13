@@ -813,7 +813,7 @@ myNginxC
  mkdir -p /var/www/openvpn
 
 # openvpn config
-wget -O /etc/openvpn/client.ovpn "https://raw.githubusercontent.com/bengali89/ceudp/main/client.conf"
+wget -O /etc/openvpn/tcp.ovpn "https://raw.githubusercontent.com/bengali89/ceudp/main/client.conf"
 echo '<ca>' >> /var/www/openvpn/tcp.ovpn
 cat /etc/openvpn/ca.crt >> /var/www/openvpn/tcp.ovpn
 echo '</ca>' >> /var/www/openvpn/tcp.ovpn
